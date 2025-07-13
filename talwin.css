@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@layer utilities{
+    .logo{ 
+        @apply bg-red-300 text-center  rounded-full w-[50px] h-[50px] text-red-600 md:p-3 p-1;
+
+    }  .tick {
+    @apply flex md:gap-4 gap-2 text-center items-center;
+  } .butt{
+    @apply md:p-3 p-1.5 outline-2 hover:bg-black hover:text-white cursor-pointer transition-all duration-700 outline-red-500 rounded-full md:pb-8 w-[62px] h-[39px] text-center font-semibold;
+  } .all{
+    @apply md:p-2 p-1 md:w-[157px] md:h-[41px] outline-1 outline-black rounded-full  cursor-pointer text-center bg-emerald-400 hover:text-white hover:bg-black;
+  } .ray{
+    @apply md:text-[16px] md:text-[#20484F];
+  }
+}
