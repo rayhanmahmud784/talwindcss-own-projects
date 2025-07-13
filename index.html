@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark" id="htmlTag">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="talwin.css">
     <title>Document</title>
 </head>
-<body class="bg-white dark:bg-gray-900">
+<body>
     <!-- Main section -->
   <header class="md:mx-5 mx-2 bg-amber-50 md:rounded-full rounded-2xl md:shadow-lg shadow-md">
     <nav class="md:flex justify-between items-center md:px-10 px-5 md:py-5 py-3">
@@ -25,7 +25,7 @@
         <div class="bg-[#F44335] md:w-[200px] md:h-[46px] hover:bg-black hover:text-amber-50 scale-100 trasarition-all duration-300 cursor-pointer rounded-full outlin outline-2">
             <button class="text-amber-50 text-center items-center ml-10 mr-9 mt-2 font-semibold outlin">Register Interest</button>
         </div>
-        <button id="switch">
+        <button>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer scale-105">
   <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
 </svg>
@@ -814,14 +814,6 @@
 
           <div class="md:m-auto items-center text-center md:mt-20 mt-5"><p class="text-[#20484F] font-light text-[18px]">Copyright 2022 Creatives For You LTD</p></div>
          </footer>
-
-         
-   <script>
-         const htmlTag = document.getElementById("htmlTag");
-         document.getElementById("switch").addEventListener("click", function () {
-          htmlTag.classList.toggle("dark");
-         });
-         </script>
 
 </body>
 </html>
